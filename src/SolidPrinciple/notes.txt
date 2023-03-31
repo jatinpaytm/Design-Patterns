@@ -1,0 +1,38 @@
+# Factory Pattern :  { creational pattern }
+https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+
+In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+
+# Abstract Factory Pattern :  { creational pattern }
+Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes. Each generated factory can give the objects as per the Factory pattern.
+
+https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm#:~:text=Abstract%20Factory%20patterns%20work%20around,ways%20to%20create%20an%20object.
+
+# Chain Of Responsibility Pattern :  { Behavioral pattern }
+As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
+In this pattern, normally each receiver contains reference to another receiver. If one object cannot handle the request then it passes the same to the next receiver and so on.
+https://www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm
+Observer Pattern :  { Behavioral pattern }
+Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+
+https://www.tutorialspoint.com/design_pattern/observer_pattern.htm
+
+# Visitor Pattern :  { Behavioral pattern }
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. This pattern comes under behavior pattern category. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
+https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm
+
+# SOLID Principle in Programming :
+The SOLID principle helps in reducing tight coupling. 
+	1	Single Responsibility Principle (SRP) : a class should have only one reason to change
+	2	Open/Closed Principle : software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+	3	Liskov’s Substitution Principle (LSP) : Derived or child classes must be substitutable for their base or parent classes
+	4	Interface Segregation Principle (ISP) : do not force any client to implement an interface which is irrelevant to them
+	5	Dependency Inversion Principle (DIP) : high-level modules should depend on abstractions rather than concrete implementations.
+
+https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/
+
+
+
